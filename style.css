@@ -14,8 +14,18 @@ body {
     background-color: var(--bg-color);
 }
 
+header > nav > a {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    padding: .8rem 2rem;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    color: var(--button-text-color);
+}
 header > nav {
-    background: var(--h-color);
+    border-bottom: 1px solid var(--h-color);
+    border-radius: 3px;
+    background: var(--bg-color);
     color: var(--a-color);
     position: sticky;
     top: 0;
@@ -109,7 +119,7 @@ header {
 
 header > nav:first-child {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 header > section {
