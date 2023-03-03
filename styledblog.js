@@ -14,8 +14,8 @@ export function generateList () {
             <h3>${postItem.title}</h3>
             <p>${postItem.date}</p>
             <p>${postItem.summary}</p>
-            <button class='edit'>Edit</button>
-            <button class='delete'>Delete</button>
+            <button class='edit'><i class='fa fa-pencil'></i></button>
+            <button class='delete'><i class='fa fa-trash'></i></button>
         </li>`;
     })
     //Place html of li items into the list
